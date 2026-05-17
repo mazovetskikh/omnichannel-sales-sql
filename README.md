@@ -145,6 +145,3 @@ Identified months with the most customers placing orders above the overall avera
 |---|---|
 | `omnichannel_analysis.sql` | All 10 queries with comments |
 
----
-
-*Dataset: synthetic educational dataset designed for SQL analytics training.*
