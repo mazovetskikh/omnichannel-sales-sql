@@ -29,42 +29,42 @@ A retail company operates both an **online store** and a network of **offline st
 
 ## Queries & Key Findings
 
-### Q1 — Top Customers by Online Spend
+### Top Customers by Online Spend
 Ranked all online customers by total spend using multi-table JOIN across orders, items, and products.
 
 **Top result:** User #49 — $670,055 in total online purchases. Top 3 users account for a significantly disproportionate share of revenue.
 
 ---
 
-### Q2 — Customer Activity Across Channels
+### Customer Activity Across Channels
 Identified how many orders each customer placed online vs offline using UNION ALL and conditional aggregation.
 
 **Finding:** Users #37 and #5 are the most active overall (28 orders each). Notably, users #37 and #34 are true omnichannel buyers — purchasing heavily in both channels. Several top spenders shop exclusively online.
 
 ---
 
-### Q3 — Products Sold in Both Channels
+### Products Sold in Both Channels
 Used INTERSECT to find products available in both online and offline channels, joined with product details.
 
 **Finding:** Products sold in both channels are predominantly ElectroLine brand, led by "Клавіатура Prime 4" at 45,601 and "Лампа Max 25" at 44,149. These cross-channel products represent the core assortment.
 
 ---
 
-### Q4 — True Omnichannel Buyers (Bulk Purchasers)
+### True Omnichannel Buyers (Bulk Purchasers)
 Identified customers who bought more than 2 units per item in **both** online and offline channels using INTERSECT with subqueries.
 
 **Finding:** Only 3 users (IDs: 5, 7, 37) qualify as true omnichannel bulk buyers — a highly valuable segment for loyalty and upsell programmes.
 
 ---
 
-### Q5 — Average Online Order Value (Paid Orders Only)
+### Average Online Order Value (Paid Orders Only)
 Calculated average check for paid online orders by joining orders, items, products, and payments.
 
 **Result:** Average online order value = **$51,710.91**
 
 ---
 
-### Q6 — Channel Volume Comparison
+### Channel Volume Comparison
 Compared total items sold and number of unique orders across online and offline channels using CTE + UNION ALL.
 
 | Channel | Total Items | Unique Orders |
@@ -76,7 +76,7 @@ Compared total items sold and number of unique orders across online and offline 
 
 ---
 
-### Q7 — Top 3 Products by Unique Buyers (Both Channels)
+### Top 3 Products by Unique Buyers (Both Channels)
 Found the 3 most popular products by number of unique customers who purchased them across both channels.
 
 **Top products by unique buyers:**
@@ -86,7 +86,7 @@ Found the 3 most popular products by number of unique customers who purchased th
 
 ---
 
-### Q8 — Average Order Value: Online vs Offline
+### Average Order Value: Online vs Offline
 Compared average order value between channels using CTE + LEFT JOIN with product prices.
 
 | Channel | Average Order Value |
@@ -98,14 +98,14 @@ Compared average order value between channels using CTE + LEFT JOIN with product
 
 ---
 
-### Q9 — Customers Who Bought Above Offline Average Price
+### Customers Who Bought Above Offline Average Price
 Identified online customers who purchased at least one product priced higher than the weighted average price of offline items.
 
 **Finding:** The majority of online customers (user IDs 1 through 50+) have made at least one above-average purchase — indicating strong crossover potential between channels.
 
 ---
 
-### Q10 — Monthly Distribution of High-Value Orders
+### Monthly Distribution of High-Value Orders
 Identified months with the most customers placing orders above the overall average order value (across both channels).
 
 | Month | Customers with High-Value Orders |
