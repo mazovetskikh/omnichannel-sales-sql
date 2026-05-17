@@ -145,3 +145,4 @@ Identified months with the most customers placing orders above the overall avera
 |---|---|
 | `omnichannel_analysis.sql` | All 10 queries with comments |
 
+<a href="https://github.com/mazovetskikh/cohort-retention-sql-sheets/blob/main/omnichannel_analysis.sql"><img src="https://img.shields.io/badge/VIEW%20SQL%20SCRIPT-336791?style=for-the-badge&logo=postgresql&logoColor=white"></a>
