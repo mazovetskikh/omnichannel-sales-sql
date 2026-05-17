@@ -1,5 +1,5 @@
-# Omnichannel Sales Analysis — PostgreSQL
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+# Omnichannel Sales Analysis — PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+
 SQL analysis of online and offline sales data for a retail company, combining multiple data sources to answer real business questions about customers, products, and channel performance.
 
 ---
