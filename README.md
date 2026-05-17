@@ -129,7 +129,7 @@ Identified months with the most customers placing orders above the overall avera
 - Conditional aggregation with `CASE WHEN`
 - `ROUND`, `SUM`, `COUNT(DISTINCT)` for metric calculation
 - `EXTRACT` for date-based grouping
-
+<a href="https://github.com/mazovetskikh/omnichannel-sales-sql/blob/main/omnichannel_analysis.sql"><img src="https://img.shields.io/badge/VIEW%20SQL%20SCRIPT-336791?style=for-the-badge&logo=postgresql&logoColor=white"></a>
 ---
 
 ## Tools
@@ -144,5 +144,3 @@ Identified months with the most customers placing orders above the overall avera
 | File | Description |
 |---|---|
 | `omnichannel_analysis.sql` | All 10 queries with comments |
-
-<a href="https://github.com/mazovetskikh/omnichannel-sales-sql/commit/8e4ef3afd0e58f95057ec8bdc30a6b162d625485"><img src="https://img.shields.io/badge/VIEW%20SQL%20SCRIPT-336791?style=for-the-badge&logo=postgresql&logoColor=white"></a>
