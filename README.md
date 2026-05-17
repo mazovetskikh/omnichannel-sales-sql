@@ -101,7 +101,7 @@ Compared average order value between channels using CTE + LEFT JOIN with product
 ### Customers Who Bought Above Offline Average Price
 Identified online customers who purchased at least one product priced higher than the weighted average price of offline items.
 
-**Finding:** The majority of online customers (user IDs 1 through 50+) have made at least one above-average purchase — indicating strong crossover potential between channels.
+**Finding:** 43 out of 50 online customers made at least one purchase priced above the offline weighted average — indicating strong premium demand in the online channel and high crossover potential between channels.
 
 ---
 
